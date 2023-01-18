@@ -18,7 +18,7 @@ header, footer{
 }
 main{
     padding: 40px;
-    min-height:100vh;
+    min-height:100vh; /*opzoeken*/
     width:60vw;
     margin:0 auto;
 
@@ -196,7 +196,7 @@ footer > p{
     padding-left: 80px;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px){ /*opzoeken*/
 
     main{
         width:80vw;
