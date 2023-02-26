@@ -1,255 +1,254 @@
 *{
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
+
 html{
     scroll-behavior: smooth;
 }
+
 body{
-    font-size: 20px;
+    font-size: 125%;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-}
-header, footer{
-    background: #222831;
-    color: white;
-    height: 60px;
-}
-main{
-    padding: 40px;
-    min-height:100vh; /*opzoeken*/
-    width:60vw;
-    margin:0 auto;
-
-
-}
-nav{
-    width:60vw;
-    height:100%;
-    margin: 0 auto;
-
-}
-nav > ul{
-    display: flex;
-    list-style:none;
-    height:100%;
-    width:100%;
-    align-items: center;
-    justify-content:space-evenly;
-    gap: 20px;
-
-}
-nav > ul >li{
-    width:100%;
-    height:100%;
-
-}
-
-.active{
-    background:red;
-
-}
-nav > ul > li > a{
-    height:100%;
-    width:100%;
-    display:block;
-    text-align:center;
-    line-height: 60px;
-    text-decoration: none;
-    color:white;
-
 }
 
 h1{
     font-size: 250%;
-    margin-bottom:20px;
+    margin-bottom: 2rem;
     border-bottom: 1px solid black;
-    font-weight:500;
+    font-weight: 500;
 }
+
 section{
-    width:100%;
-    padding:40px;
-    
+    width: 60vw;
+    padding: 4rem;
+    width: 100%;
 }
+
 article{
-   
     width: 100%;
     margin: 0 auto;
-    padding: 40px;
-    
-
-
+    padding: 4rem;
 }
+
 .box{
-    width:100%;
-    height:400px;
-    position:relative;
-    Padding:0;
-    margin-bottom: 40px;
-
-
+    width: 100%;
+    height: 40rem;
+    position: relative;
+    padding: 0;
+    margin-bottom: 4rem;
 }
+
 .box > a > figure{
-    width:100%;
-    height:100%;
-
+    width: 100%;
+    height: 100%;
 }
+
 .box > a > figure > img{
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    border-radius:50px;
-    
-
-
-
-
+    border-radius: 5rem;
 }
+
 .box > a > figure > img:hover{
-    transform:none;
+    transform: none;
 }
 
 .box > a > section{
-    position:absolute;
-    bottom:0%;
-    left:0%;
-    padding:40px;
-    color:white;
-    width:100%;
-    height:100%;
-    background:linear-gradient(transparent, 80%, black);
-    border-radius:50px;
-    display:flex;
-    justify-content:flex-end;
-    /*als je flex direction column gebruikt worden justify content en align items omgewisseld */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 4rem;
+    color: white;
+    border-radius: 5rem;
+    background: linear-gradient(transparent,80%,black);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
     flex-direction: column;
-
-
-
-
 }
+
+.box > a > section > p{
+    margin-bottom: 0;
+}
+
 figure{
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
+}
+
+figcaption{
+    font-size: 80%;
+    font-style: italic;
+    font-weight: 400;
 }
 
 img{
     width: 100%;
-    border-radius:5px;
+    border-radius: 5px;
     transition: 0.2s transform;
 }
+
 img:hover{
     transform: scale(1.05);
 }
 
 p{
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
 }
-p:last-of-type{
-    margin-bottom:0;
-}
-figcaption{
-    font-size: 80%;
-    font-style: italic;
-    font-weight:400;
-    
-}
+
 audio{
     display: block;
-    margin-top: 20px;
+    margin-top: 2rem;
 }
+
 video{
-    width:100%;
-    margin-bottom: 20px;
+    width: 100%;
+    margin-bottom: 2rem;
     border-radius: 5px;
 }
+
+header{
+    height: 6rem;
+    background-color: #222831;
+    color: white;
+}
+
+header, footer{
+    height: 6rem;
+    background-color: #222831;
+    color: white;
+
+}
+
+main{
+    padding: 4rem;
+    min-height: 100vh;
+    width: 60vw;
+    margin: 0 auto;
+}
+
+nav{
+    width: 60vw;
+    height: 100%;
+    margin: 0 auto;
+}
+
+nav > ul{
+    display: flex;
+    list-style: none;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly   ;
+    gap: 2rem;
+}
+
+nav > ul > li{
+    width: 100%;
+    height: 100%;
+}
+
+.active{
+    background: red;
+}
+
+nav > ul > li > a{
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    line-height: 6rem;
+    text-decoration: none;
+    color: white;
+}
+
 .top{
-    width: 80px;
-    height: 80px;
+    width: 8rem;
+    height: 8rem;
     background: #222831;
-    border:none;
+    border: none;
     font-size: 150%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     border-radius: 5px;
     color: white;
-    position:fixed;
-    bottom:120px;
-    right:120px;
+    position: fixed;
+    bottom: 12rem;
+    right: 12rem;
     text-decoration: none;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-
-
-
-
 }
+
 footer{
-    height: 60px;
-    display:flex;
+    display: flex;
     align-items: center;
-    
 }
+
 footer > p{
     width: 60vw;
     margin: 0 auto;
-    padding-left: 80px;
+    padding-left: 8rem;
 }
 
-@media screen and (max-width: 1000px){ /*opzoeken*/
-
+@media screen and (max-width:10rem) {
     main{
-        width:80vw;
-
+        width: 80vw;
     }
-    footer > p {
+    footer > p{
         width: 80vw;
     }
     img:hover{
-    transform: none;
+        transform: none;
     }
     .top{
-    width: 60px;
-    height: 60px;
-    bottom:60px;
-    right:60px; 
-    
+        width: 6rem;
+        height: 6rem;
+        bottom: 6rem;
+        right: 6rem;
     }
     header{
         height:auto;
-
     }
-
     nav{
+        width: 100%;
+    }
+    
+    nav > ul {
+        display:block;
+        height:100%;
         width:100%;
+        padding-left: 0;
     }
     
-    
-    
-    nav > ul{
-        display: block;
+    nav > ul > li{
+        width:100%;
+        text-align: center;
+        height:8rem;
     }
-
     
+    nav > ul > li > a{
+        line-height: 8rem;
+    }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width:60rem) {
     body{
         font-size: 16px;
     }
-    
-   main{
+    main{
         width: 100vw;
-        padding: 20px;
-
+        padding: 2rem;
     }
     h1{
         font-size: 180%;
-
     }
     footer > p{
         width: 100vw;
-        padding-left:60px;
-
+        padding-left: 60px;
     }
 }
